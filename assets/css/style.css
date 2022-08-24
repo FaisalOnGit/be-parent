@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+  font-family: 'Poppins';
+}
+
+/* Navbar */
+
+nav.nav-custom {
+  display: flex;
+  width: 100;
+  justify-content: space-between;
+  padding: 40px 0;
+  position: relative;
+  z-index: 99;
+}
+
+.nav-left {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links-custom {
+  width: 50%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+a.link-secondary {
+  text-decoration: none;
+  color: #969696;
+}
+
+button.btn-primary-custom {
+  background: rgb(210, 228, 255);
+  background: linear-gradient(339deg, rgba(210, 228, 255, 1) 0%, rgba(142, 187, 255, 1) 100%);
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  transition: ease-out 0.3s;
+}
+
+button.btn-primary-custom:hover {
+  transform: scale(1.02);
+  transition: ease-in 0.3s;
+  box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Hero */
+
+h1.h1-custom {
+  font-size: 68px;
+  font-weight: bold;
+  color: #696969;
+}
+
+p.p-secondary {
+  font-size: 16px;
+  color: #696969;
+  width: 78%;
+}
+
+/* hero img */
+
+img.hero-img {
+  position: absolute;
+  right: 10;
+  top: 0;
+}
+
+.img-service {
+  position: absolute;
+  width: 1114px;
+  left: 150px;
+  top: 909px;
+}
+
+/* Bapa */
+h2.h2-custom {
+  font-size: 52px;
+  font-weight: bold;
+  color: #696969;
+}
+
+p.p-secondary {
+  font-size: 16px;
+  color: #696969;
+  width: 78%;
+}
+
+img.bapa-img {
+  position: absolute;
+  left: 10;
+}
+
+.bapa {
+  margin-top: 800px;
+}
+
+.bapa-text {
+  padding: 150px 0;
+}
+
+p.daftar {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #8ebbff;
+}
+
+h2.testi-text {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  color: #696969;
+}
+
+p.p-testi {
+  font-size: 20px;
+  color: #8ebbff;
+}
+
+.testi {
+  height: 100vh;
+}
+
+p.closing-p {
+  font-size: 16px;
+  line-height: 19px;
+  color: #969696;
+  width: 60%;
+}
+
+p.login-p {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration-line: underline;
+  color: #8ebbff;
+}
+
+.footer {
+  margin-top: 100px;
+}
